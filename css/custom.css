@@ -1,0 +1,114 @@
+/* logo colors
+TEAL S = #A0FFF9
+BLUE A = #A0D8FF
+LAVENDER R = #ABA0FF
+ORCHID R = #EAA0FF
+PINK A = #FFA0D3
+*/
+
+.link-padding {
+  margin-top: 20px;
+}
+
+.button-padding {
+  margin-right: 10px;
+}
+
+.btn-lavender {
+  color: #fff;
+  background-color: #aba0ff;
+  border-color: #aba0ff;
+  font-family: "Robot", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 40px;
+}
+
+.btn-orchid {
+  color: #fff;
+  background-color: #eaa0ff;
+  border-color: #eaa0ff;
+  font-family: "Robot", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 40px;
+}
+
+/* changing orange hover text  */
+/* changes main large buttons */
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.open .dropdown-toggle.btn {
+  color: #fff !important;
+  background-color: #a0fff9 !important;
+  border-color: #a0fff9 !important;
+}
+
+/* changes color for navbar */
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #a0fff9 !important;
+}
+
+/* converting hero section to regular content start but keep navbar */
+
+  .navbar-space {
+      margin-top: 55px !important;
+  }
+
+  /* change header image background */
+  header {
+    background-image: url(../images/bg-main.jpg) !important;
+    /* background-repeat: none;
+    background-attachment: scroll; */
+    background-position: center bottom;/*
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: #fff; */
+}
+
+@media (min-width: 768px) 
+header .intro-text {
+    padding-top: 286px !important; 
+    padding-bottom: 429px !important;
+}
+
+.image-bg {
+  background-image: url(../images/bg-main.jpg) !important;
+  background-position: center bottom !important;
+}
+
+
+
+/*  this is enough padding to push below the navbar
+header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+} */
+
+/* this creates the large hero image
+@media (min-width: 768px)
+header .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+} */
+
+.padding-zero {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.active-page {
+  color: #A0FFF9 !important;
+}
