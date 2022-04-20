@@ -78,14 +78,15 @@ a.active {
     color: #fff; */
 }
 
-@media (min-width: 768px) 
-header .intro-text {
-    padding-top: 286px !important; 
-    padding-bottom: 429px !important;
+@media (min-width: 768px) {
+	header .intro-text {
+	    padding-top: 660px !important;
+	    padding-bottom: 200px;
+	}
 }
 
 .image-bg {
-  background-image: url(../images/bg-main.jpg) !important;
+  background-image: url(../images/bg-main.png) !important;
   background-position: center bottom !important;
 }
 
